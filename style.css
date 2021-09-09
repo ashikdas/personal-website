@@ -36,7 +36,7 @@ p{
 }
 section{
     height: 600px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     padding-top: 80px;
     padding-left: 100px;
     padding-right: 100px;
@@ -46,4 +46,7 @@ section{
     background-repeat: no-repeat;
     background-position-x: 0%;
     background-position-y: 0%;
+}
+#latest-work{
+    text-align: center;
 }
