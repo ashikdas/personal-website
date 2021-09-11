@@ -46,7 +46,25 @@ section{
     background-repeat: no-repeat;
     background-position-x: 0%;
     background-position-y: 0%;
+    height: 800px;
 }
 #latest-work{
     text-align: center;
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    height: 400px;
+    padding-top: 0%;
+}
+.one-third{
+    width: 25%;
+    float: left;
+    margin-left: 2%;
+    padding: 2%;
+}
+.one-third img{
+    width: 100%;
 }
