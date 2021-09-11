@@ -48,8 +48,9 @@ section{
     background-position-y: 0%;
     height: 800px;
 }
-#latest-work{
+#section-header{
     text-align: center;
+    font-size: 40px;
 }
 .latest-work{
     background-image: url("images/latest-work-bg.png");
@@ -67,4 +68,37 @@ section{
 }
 .one-third img{
     width: 100%;
+}
+.client-review{
+    background-image: url("images/footer-bg.png");
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 0%;
+    margin-top: 100px;
+}
+#text-align{
+    text-align: center;
+    margin-bottom: 0%;
+}
+#deg{
+    text-align: center;
+    color: dimgray;
+    margin-top: 0%;
+}
+.message{
+    margin: 40px;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+.leave-message{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(238, 36, 137), rgb(243, 29, 118));
+    padding: 10px 30px;
+    margin: 0% 15%;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
 }
